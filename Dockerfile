@@ -12,4 +12,6 @@ COPY . ${APP_DIR}
 RUN pip install --no-cache-dir -r ${APP_DIR}/requirements.txt
 WORKDIR ${APP_DIR}
 
+EXPOSE 5000
+
 ENTRYPOINT ["flask", "run"]
