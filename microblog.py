@@ -1,1 +1,1 @@
-init.py
+from app import app
