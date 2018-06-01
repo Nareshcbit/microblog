@@ -10,4 +10,4 @@ RUN pip install --no-cache-dir -r ${APP_DIR}/requirements.txt
 
 RUN apk add --no-cache bash
 
-ENTRYPOINT ["flask", "run"]
+#ENTRYPOINT ["flask", "run"]
