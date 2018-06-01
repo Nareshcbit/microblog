@@ -6,7 +6,7 @@ ENV FLASK_APP=microblog.py
 
 
 
-RUN apk add --no-cache bash
+RUN apk add --no-cache bash  && apk add --no-cache curl && apk add --no-cache nano
 
 COPY . ${APP_DIR}
 RUN pip install --no-cache-dir -r ${APP_DIR}/requirements.txt
