@@ -1,6 +1,6 @@
 FROM python:alpine3.6
 
-ARG APP_DIR = '/build'
+ARG APP_DIR='/build'
 RUN apk add --no-cache bash
 
 
