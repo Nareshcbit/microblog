@@ -2,7 +2,7 @@ FROM python:alpine3.6
 
 ARG APP_DIR='/build'
 
-ENV FLASK_APP=microblog.py
+ENV FLASK_APP=microblog
 
 
 COPY . ${APP_DIR}
